@@ -28,7 +28,10 @@ public class CajeroView {
         System.out.println("1.- Consultar Saldo");
         System.out.println("2.- Retirar");
         System.out.println("3.- Depositar");
-        //definir las opciones faltantes
+        System.out.println("4.- Transferir dinero");
+        System.out.println("5.- Cambiar NIP/PIN");
+        System.out.println("6.- Consultar últimos movimientos");
+        System.out.println("7.- Pagar servicios");
         System.out.println("9.- Salir");
     }
     public int leerOpcion(){
