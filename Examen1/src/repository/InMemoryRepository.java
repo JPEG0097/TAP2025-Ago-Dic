@@ -1,4 +1,4 @@
-package inventory.repository;
+package repository;
 
 import java.util.*;
 import java.util.function.Function;

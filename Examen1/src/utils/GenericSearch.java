@@ -1,4 +1,4 @@
-package inventory.utils;
+package utils;
 
 import java.util.*;
 import java.util.function.Predicate;
@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 public final class GenericSearch {
     private GenericSearch(){}
 
-    // Example of a generic method using bounded wildcards & predicate
+
     public static <T> List<T> filter(Collection<T> data, Predicate<? super T> predicate) {
         List<T> result = new ArrayList<>();
         for (T item : data) {

@@ -8,6 +8,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PracticaMVC/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Examen1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Biblioteca/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PatronStrategy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExamenCambios/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

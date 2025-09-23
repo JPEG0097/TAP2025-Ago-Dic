@@ -1,11 +1,11 @@
-package inventory.controller;
+package controller;
 
-import inventory.model.Client;
-import inventory.model.Product;
-import inventory.repository.InMemoryRepository;
-import inventory.service.ClientService;
-import inventory.service.InventoryService;
-import inventory.view.ConsoleView;
+import model.Client;
+import model.Product;
+import repository.InMemoryRepository;
+import service.ClientService;
+import service.InventoryService;
+import view.ConsoleView;
 
 import java.util.List;
 import java.util.Optional;

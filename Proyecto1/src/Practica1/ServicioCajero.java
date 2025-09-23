@@ -6,6 +6,7 @@ import java.util.List;
 public class ServicioCajero {
     private List<Usuario> usuarios;
     private Usuario usuarioActual;
+    private OperacionStrategy operacionStrategy;
 
     public ServicioCajero() {
         usuarios = new ArrayList<>();
@@ -50,5 +51,16 @@ public class ServicioCajero {
 
     public void cerrarSesion() {
         usuarioActual = null;
+    }
+
+    public void setOperacionStrategy(OperacionStrategy operacionStrategy) {
+        this.operacionStrategy = operacionStrategy;
+    }
+
+    public void ejecutarOperacion(double cantidad) {
+        if (operacionStrategy == null) {
+            throw new IllegalStateException("No se ha establecido la estrategia de operación");
+        }
+        operacionStrategy.ejecutar(this, cantidad);
     }
 }

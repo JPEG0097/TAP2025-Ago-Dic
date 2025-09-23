@@ -1,4 +1,4 @@
-package inventory.model;
+package model;
 
 public class Client implements Identifiable<Integer> {
     private Integer id;

@@ -1,8 +1,6 @@
-package inventory;
+import controller.AppController;
 
-import inventory.controller.AppController;
-
-public class Main {
+public class main {
     public static void main(String[] args) {
         new AppController().run();
     }

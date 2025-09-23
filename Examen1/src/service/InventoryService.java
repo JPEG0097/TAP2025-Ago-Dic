@@ -1,8 +1,8 @@
-package inventory.service;
+package service;
 
-import inventory.model.Product;
-import inventory.repository.Repository;
-import inventory.utils.GenericSearch;
+import model.Product;
+import repository.Repository;
+import utils.GenericSearch;
 
 import java.time.LocalDate;
 import java.util.Comparator;

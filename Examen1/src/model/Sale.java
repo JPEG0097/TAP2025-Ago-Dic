@@ -1,4 +1,4 @@
-package inventory.model;
+package model;
 
 import java.time.LocalDate;
 

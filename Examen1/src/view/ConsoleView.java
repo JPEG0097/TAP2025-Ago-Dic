@@ -1,7 +1,7 @@
-package inventory.view;
+package view;
 
-import inventory.model.Client;
-import inventory.model.Product;
+import model.Client;
+import model.Product;
 
 import java.util.List;
 import java.util.Scanner;

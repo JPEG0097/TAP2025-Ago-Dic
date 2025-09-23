@@ -1,8 +1,8 @@
-package inventory.service;
+package service;
 
-import inventory.model.Client;
-import inventory.repository.Repository;
-import inventory.utils.GenericSearch;
+import model.Client;
+import repository.Repository;
+import utils.GenericSearch;
 
 import java.util.Comparator;
 import java.util.List;
