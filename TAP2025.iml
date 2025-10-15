@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/PatronStrategy/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExamenCambios/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SandwichBuilder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exp1Ejemplo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExpHash/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PatronDecorator/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
